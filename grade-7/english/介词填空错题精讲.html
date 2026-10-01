@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>七年级英语 · 介词填空错题精讲（13 题）</title>
+<style>
+:root{
+  --paper:#fbf6ec;
+  --paper2:#f3ecdf;
+  --card:#fffdf8;
+  --ink:#2f2a25;
+  --ink2:#6c6358;
+  --line:#e8dfd0;
+  --red:#bf3b2b;
+  --red-soft:#fbeae6;
+  --blue:#1f6f8b;
+  --blue-soft:#e9f2f7;
+  --gold:#a9761a;
+  --gold-soft:#fdf3df;
+  --green:#3d7a53;
+  --green-soft:#e9f4ed;
+  --purple:#7a4fa3;
+  --purple-soft:#f2ecfb;
+  --radius:16px;
+  --shadow:0 1px 2px rgba(90,70,40,.05), 0 10px 26px -18px rgba(90,70,40,.35);
+  --fs:16.5px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 10% -8%, rgba(191,59,43,.06), transparent 42%),
+    radial-gradient(circle at 92% 0%, rgba(31,111,139,.07), transparent 40%),
+    var(--paper);
+  color:var(--ink);
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC",sans-serif;
+  font-size:var(--fs);
+  line-height:1.78;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:960px;margin:0 auto;padding:34px 22px 80px}
+
+/* ---------- 标题区 ---------- */
+.hero{
+  background:linear-gradient(135deg,#fff8ea,#fdeee6 58%,#eef6f2);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:26px 28px;
+  box-shadow:var(--shadow);
+  margin-bottom:26px;
+}
+.kicker{
+  margin:0 0 8px; font-size:.74rem; letter-spacing:3px; color:var(--red);
+  font-weight:700;
+}
+.hero h1{
+  margin:0 0 8px;
+  font-size:1.6rem; line-height:1.4; letter-spacing:.5px;
+  font-family:"Songti SC","Source Han Serif SC","SimSun",serif;
+}
+.hero .sub{margin:0;color:var(--ink2);font-size:.94rem}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.stats span{
+  background:rgba(255,255,255,.75);
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:4px 14px; font-size:.84rem; color:var(--ink2);
+}
+.stats b{color:var(--red);font-size:1rem;margin-right:2px}
+
+/* ---------- 目录 ---------- */
+.toc{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:14px 18px; margin-bottom:30px; box-shadow:var(--shadow);
+}
+.toc h2{margin:0 0 8px;font-size:.74rem;letter-spacing:2px;color:var(--ink2)}
+.toc ol{margin:0;padding-left:20px;columns:2;column-gap:26px;font-size:.9rem}
+.toc li{margin:5px 0;break-inside:avoid}
+.toc a{color:var(--blue);text-decoration:none}
+.toc a:hover{text-decoration:underline}
+
+/* ---------- 通用 ---------- */
+section{margin-bottom:34px}
+h2.sec{
+  font-size:1.22rem; margin:0 0 16px; padding-bottom:10px;
+  border-bottom:2px solid var(--line); letter-spacing:.5px;
+}
+h2.sec .num{
+  display:inline-block; min-width:26px; height:26px; line-height:26px; text-align:center;
+  background:var(--red); color:#fff; border-radius:8px; font-size:.86rem;
+  margin-right:10px; vertical-align:2px;
+}
+h3{font-size:1.02rem;margin:22px 0 10px;color:var(--ink)}
+h3 .dot{color:var(--red);margin-right:6px}
+p{margin:10px 0}
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:20px 22px; box-shadow:var(--shadow);
+}
+.blank{
+  display:inline-block; min-width:62px; text-align:center;
+  border-bottom:1.6px solid var(--red); color:var(--red); font-weight:700;
+}
+code{font-family:"Consolas","Menlo",monospace;background:var(--paper2);padding:1px 6px;border-radius:6px;font-size:.92em}
+
+/* ---------- 逐题订正 ---------- */
+.qlist{display:grid;gap:12px}
+.q{
+  display:grid; grid-template-columns:38px minmax(0,1fr); gap:4px 12px;
+  background:var(--card); border:1px solid var(--line); border-left:4px solid var(--red);
+  border-radius:12px; padding:14px 16px; box-shadow:var(--shadow);
+  break-inside:avoid;
+}
+.qno{
+  grid-row:1 / span 5;
+  width:30px;height:30px;line-height:30px;text-align:center;border-radius:50%;
+  background:var(--red-soft);color:var(--red);font-weight:800;font-size:.9rem;
+}
+.qbody{min-width:0}
+.origin{margin:0;font-weight:600}
+.origin .lbl{
+  display:inline-block;font-size:.7rem;color:var(--ink2);background:var(--paper2);
+  border-radius:5px;padding:0 6px;margin-right:8px;vertical-align:2px;font-weight:500;
+}
+.swap{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.tag{
+  border-radius:7px;padding:1px 9px;font-size:.86rem;font-weight:700;
+  border:1px solid transparent;
+}
+.tag.wrong{background:var(--red-soft);color:var(--red);text-decoration:line-through;border-color:rgba(191,59,43,.25)}
+.tag.right{background:var(--green-soft);color:var(--green);border-color:rgba(61,122,83,.3)}
+.arrow{color:var(--ink2)}
+.tofix{margin:0;color:var(--ink2);font-size:.92rem}
+.tofix b{color:var(--blue)}
+.why{margin:8px 0 0;font-size:.9rem;color:var(--ink2)}
+
+/* ---------- 表格 ---------- */
+.table-wrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;background:var(--card)}
+th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+th{background:var(--paper2);font-weight:700;white-space:nowrap}
+td b,th b{color:var(--red)}
+
+/* ---------- 类型卡片 ---------- */
+.type{border-top:4px solid var(--red)}
+.type.t2{border-top-color:var(--blue)}
+.type.t3{border-top-color:var(--gold)}
+.type.t4{border-top-color:var(--purple)}
+.type h2{margin:0 0 4px;font-size:1.14rem}
+.type h2 .badge{
+  display:inline-block;font-size:.72rem;letter-spacing:1px;color:#fff;background:var(--red);
+  border-radius:6px;padding:2px 9px;margin-right:9px;vertical-align:3px;
+}
+.type.t2 h2 .badge{background:var(--blue)}
+.type.t3 h2 .badge{background:var(--gold)}
+.type.t4 h2 .badge{background:var(--purple)}
+.meta{margin:0;color:var(--ink2);font-size:.86rem}
+.callout{
+  background:var(--gold-soft); border:1px solid rgba(169,118,26,.25);
+  border-radius:11px; padding:12px 15px; margin:14px 0;
+}
+.callout.blue{background:var(--blue-soft);border-color:rgba(31,111,139,.22)}
+.callout p{margin:6px 0}
+.callout .ttl{font-weight:700;color:var(--gold);margin:0 0 4px}
+.callout.blue .ttl{color:var(--blue)}
+
+/* ---------- 练习与答案 ---------- */
+ol.ex{background:var(--paper2);border-radius:12px;padding:14px 18px 14px 38px;margin:12px 0}
+ol.ex li{margin:9px 0}
+details.ans{
+  border:1px dashed var(--green); border-radius:12px; padding:10px 16px;
+  background:var(--green-soft); margin-top:12px;
+}
+details.ans summary{
+  cursor:pointer;font-weight:700;color:var(--green);font-size:.92rem;list-style:none;
+}
+details.ans summary::-webkit-details-marker{display:none}
+details.ans summary::before{content:"▸ ";font-weight:700}
+details.ans[open] summary::before{content:"▾ "}
+details.ans ol{margin:12px 0 4px;padding-left:24px}
+details.ans li{margin:8px 0;font-size:.92rem}
+details.ans li b{color:var(--green)}
+
+/* ---------- 收尾 ---------- */
+.tips{counter-reset:tip}
+.tips .tip{
+  display:grid;grid-template-columns:30px minmax(0,1fr);gap:12px;
+  padding:12px 0;border-bottom:1px dashed var(--line);break-inside:avoid;
+}
+.tips .tip:last-child{border-bottom:0}
+.tips .tip::before{
+  counter-increment:tip;content:counter(tip);
+  width:26px;height:26px;line-height:26px;text-align:center;border-radius:50%;
+  background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:.86rem;
+}
+.tips .tip p{margin:0}
+.tips .tip strong{color:var(--red)}
+.footer{
+  text-align:center;color:var(--ink2);font-size:.82rem;margin-top:36px;
+  padding-top:16px;border-top:1px solid var(--line);
+}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+button{
+  font:inherit;font-size:.85rem;cursor:pointer;
+  background:var(--card);color:var(--ink);border:1px solid var(--line);
+  border-radius:999px;padding:6px 16px;transition:.16s;
+}
+button:hover{border-color:var(--red);color:var(--red)}
+
+/* ---------- 打印 ---------- */
+@media print{
+  :root{--fs:10.5pt;--shadow:none}
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  .actions,.toc{display:none}
+  .hero{padding:14px 16px}
+  .hero h1{font-size:15pt}
+  section{margin-bottom:14px}
+  .card,.q,table,ol.ex,details.ans,.tips .tip{break-inside:avoid}
+  details.ans{background:#fff;border-style:solid}
+  h2.sec{font-size:13pt}
+}
+@page{size:A4;margin:12mm}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="kicker">七年级英语 · 介词专项</p>
+  <h1>介词填空 13 题：逐题订正 · 错误分类 · 精讲 · 配套练习</h1>
+  <p class="sub">原题 &rarr; 我的答案 &rarr; 正确答案 &rarr; 订正后全句 &rarr; 为什么错，一次讲透。</p>
+  <div class="stats">
+    <span><b>13</b>道错题</span>
+    <span><b>4</b>类错误</span>
+    <span><b>20</b>道配套练习</span>
+    <span>可打印 · 可自查</span>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>目 录</h2>
+  <ol>
+    <li><a href="#fix">13 道错题逐题订正</a></li>
+    <li><a href="#class">错误类型归纳</a></li>
+    <li><a href="#t1">类型一：动词（短语）＋固定介词</a></li>
+    <li><a href="#t2">类型二：名词／描述性固定搭配</a></li>
+    <li><a href="#t3">类型三：地点介词 in / on / at</a></li>
+    <li><a href="#t4">类型四：时间介词 at / on / in</a></li>
+    <li><a href="#tips">复习建议</a></li>
+  </ol>
+</nav>
+
+<!-- ================= 一、逐题订正 ================= -->
+<section id="fix">
+  <h2 class="sec"><span class="num">01</span>13 道错题逐题订正</h2>
+  <div class="qlist">
+
+    <article class="q">
+      <div class="qno">1</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>The store has shorts <span class="blank">( )</span> a great prices.</p>
+        <p class="swap"><span class="tag wrong">for</span><span class="arrow">&rarr;</span><span class="tag right">at</span></p>
+        <p class="tofix">订正：The store has shorts <b>at</b> great prices.（也可说 at a great price）</p>
+        <p class="why">解析：表示“以……的价格”用 at，at a good / great price 是固定搭配；for 表示“为了、交换”。另外原题干 a great prices 本身有笔误，要么 a great price，要么 great prices。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">2</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>We can know about Chinese history <span class="blank">( )</span> TV.</p>
+        <p class="swap"><span class="tag wrong">from</span><span class="arrow">&rarr;</span><span class="tag right">on</span></p>
+        <p class="tofix">订正：We can know about Chinese history <b>on</b> TV.</p>
+        <p class="why">解析：on TV / on the radio / on the phone / on the Internet 是固定搭配，表示“通过某种媒介”。中文说“从电视上”，英语用 on。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">3</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>We play football <span class="blank">( )</span> the playground after class.</p>
+        <p class="swap"><span class="tag wrong">in</span><span class="arrow">&rarr;</span><span class="tag right">on</span></p>
+        <p class="tofix">订正：We play football <b>on</b> the playground after class.</p>
+        <p class="why">解析：操场被看作一块“平面场地”，所以用 on the playground；in 强调“在某个空间里面”，如 in the classroom。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">4</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>Let's have a look <span class="blank">( )</span> the map of China.</p>
+        <p class="swap"><span class="tag wrong">to</span><span class="arrow">&rarr;</span><span class="tag right">at</span></p>
+        <p class="tofix">订正：Let's have a look <b>at</b> the map of China.</p>
+        <p class="why">解析：have a look at = look at，是固定短语，“看一眼……”。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">5</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>I don't know how to do this math question. Can you help me <span class="blank">( )</span> it?</p>
+        <p class="swap"><span class="tag wrong">to</span><span class="arrow">&rarr;</span><span class="tag right">with</span></p>
+        <p class="tofix">订正：I don't know how to do this math question. Can you help me <b>with</b> it?</p>
+        <p class="why">解析：it 是代词（名词性成分），所以用 help sb <b>with</b> sth。只有后面接动词时才用 help sb (to) do sth：Can you help me (to) do it?</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">6</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>She can't find the way. So she asks the policeman <span class="blank">( )</span> help.</p>
+        <p class="swap"><span class="tag wrong">to</span><span class="arrow">&rarr;</span><span class="tag right">for</span></p>
+        <p class="tofix">订正：She can't find the way. So she asks the policeman <b>for</b> help.</p>
+        <p class="why">解析：help 在这里是名词，是“要的东西”，所以用 ask sb <b>for</b> sth；若后面接动词才是 ask sb to do sth（请求某人做某事）：She asks the policeman to help her.</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">7</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>He is at home. He isn't <span class="blank">( )</span> school.</p>
+        <p class="swap"><span class="tag wrong">in</span><span class="arrow">&rarr;</span><span class="tag right">at</span></p>
+        <p class="tofix">订正：He is at home. He isn't <b>at</b> school.</p>
+        <p class="why">解析：at home、at school、at work 都是固定短语，表示“在家、在学校（上学）、在上班”；in the school 是“在学校这栋建筑里面”，意思完全不同。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">8</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>The cat is running <span class="blank">( )</span> the mouse.</p>
+        <p class="swap"><span class="tag wrong">to</span><span class="arrow">&rarr;</span><span class="tag right">after</span></p>
+        <p class="tofix">订正：The cat is running <b>after</b> the mouse.</p>
+        <p class="why">解析：run after = 追赶；run to = 跑向（某处）。猫是在“追”老鼠，不是“跑向”老鼠。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">9</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>Please take the photo <span class="blank">( )</span> their parents.</p>
+        <p class="swap"><span class="tag wrong">for</span><span class="arrow">&rarr;</span><span class="tag right">to</span></p>
+        <p class="tofix">订正：Please take the photo <b>to</b> their parents.</p>
+        <p class="why">解析：take sth <b>to</b> sb = 把某物（带）给某人；take a photo <b>for</b> sb = 替某人拍一张照片。本题是“把照片拿给父母”，所以用 to。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">10</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>I always go swimming with my father <span class="blank">( )</span> weekends.</p>
+        <p class="swap"><span class="tag wrong">on</span><span class="arrow">&rarr;</span><span class="tag right">at</span></p>
+        <p class="tofix">订正：I always go swimming with my father <b>at</b> weekends.</p>
+        <p class="why">解析：英式英语用 at weekends / at the weekend，美式英语用 on weekends / on the weekend，两种都有人用。本题按英式给出答案 at，考试以所用教材为准（人教版部分单元出现过 on weekends，建议当面问一下老师）。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">11</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>The woman <span class="blank">( )</span> a yellow dress is my mother.</p>
+        <p class="swap"><span class="tag wrong">with</span><span class="arrow">&rarr;</span><span class="tag right">in</span></p>
+        <p class="tofix">订正：The woman <b>in</b> a yellow dress is my mother.</p>
+        <p class="why">解析：in + 衣服／颜色表示“穿着”，如 a woman in a yellow dress、a girl in red；with 表示“带有……的特征”，如 with glasses（戴眼镜）、with long hair（留长发）。一句话：in 管衣服颜色，with 管长相配饰。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">12</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>Some socks are <span class="blank">( )</span> sale.</p>
+        <p class="swap"><span class="tag wrong">for</span><span class="arrow">&rarr;</span><span class="tag right">on</span></p>
+        <p class="tofix">订正：Some socks are <b>on</b> sale.</p>
+        <p class="why">解析：on sale = 特价出售、正在打折；for sale = 待售（供出售，强调“可买”）。本题是“特价卖”，用 on。</p>
+      </div>
+    </article>
+
+    <article class="q">
+      <div class="qno">13</div>
+      <div class="qbody">
+        <p class="origin"><span class="lbl">原题</span>They talk with Mr. Green <span class="blank">( )</span> the question.</p>
+        <p class="swap"><span class="tag wrong">for</span><span class="arrow">&rarr;</span><span class="tag right">about</span></p>
+        <p class="tofix">订正：They talk with Mr. Green <b>about</b> the question.</p>
+        <p class="why">解析：talk with sb about sth = 和某人谈论某事，about 引出“谈论的内容”。</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= 二、错误分类 ================= -->
+<section id="class">
+  <h2 class="sec"><span class="num">02</span>错误类型归纳</h2>
+  <div class="card">
+    <p>你的 13 个错误集中在四类：</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>类型</th><th>题号</th><th>数量</th><th>核心考点</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>类型一</b> 动词（短语）＋固定介词</td><td>4、5、6、8、9、13</td><td>6 题</td><td>look at / help with / ask for / run after / take to / talk about</td></tr>
+          <tr><td><b>类型二</b> 名词／描述性固定搭配</td><td>1、2、11、12</td><td>4 题</td><td>at a price / on TV / in + 衣服 / on sale</td></tr>
+          <tr><td><b>类型三</b> 地点介词 in / on / at</td><td>3、7</td><td>2 题</td><td>点用 at、面用 on、范围用 in</td></tr>
+          <tr><td><b>类型四</b> 时间介词 at / on / in</td><td>10</td><td>1 题</td><td>时刻 at、某天 on、季节月份 in</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <p class="ttl">一句话诊断</p>
+      <p>你最大的问题不是“介词本身不懂”，而是<b>没有把动词和介词的搭配当成一个整体来记</b>。像“帮它”写成 to、“问警察帮忙”写成 to、“从电视上”写成 from，都是直接把中文对应成英文的结果。介词在英语里是“动词的一部分”，不是可以自由翻译的小词。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 类型一 ================= -->
+<section id="t1">
+  <div class="card type">
+    <h2><span class="badge">类型一</span>动词（短语）＋固定介词</h2>
+    <p class="meta">对应错题：第 4、5、6、8、9、13 题 &nbsp;|&nbsp; 6 题，占比最高</p>
+
+    <h3><span class="dot">◆</span>精讲</h3>
+    <p>汉语里“看、帮、问、追、拿、谈”都是一个动词，英语却要求各自绑定不同的介词，而且<b>换一个介词意思就变</b>：</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>搭配</th><th>意思</th><th>对比</th></tr></thead>
+        <tbody>
+          <tr><td>have a look <b>at</b> sth</td><td>看一眼</td><td>&ne; look for（寻找）</td></tr>
+          <tr><td>help sb <b>with</b> sth</td><td>在某事上帮某人</td><td>&ne; help sb (to) do sth（帮某人做某事）</td></tr>
+          <tr><td>ask sb <b>for</b> sth</td><td>向某人要某物</td><td>&ne; ask sb <b>to do</b> sth（请某人做某事）</td></tr>
+          <tr><td>run <b>after</b> sb</td><td>追赶某人</td><td>&ne; run <b>to</b> sb（跑向某人）</td></tr>
+          <tr><td>take sth <b>to</b> sb</td><td>把某物拿给某人</td><td>&ne; take a photo <b>for</b> sb（替某人拍照）</td></tr>
+          <tr><td>talk <b>about</b> sth</td><td>谈论某事</td><td>talk <b>with/to</b> sb（和某人谈）</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="dot">◆</span>两个最容易混的点</h3>
+    <div class="callout blue">
+      <p class="ttl">① help sb with sth 还是 help sb to do sth？</p>
+      <p>看后面接什么：接名词／代词（it, English, homework）用 <b>with</b>；接动词原形用 <b>(to) do</b>。</p>
+      <p>· Can you help me <b>with</b> it?（it 是代词，所以用 with）</p>
+      <p>· Can you help me <b>(to) do</b> it?</p>
+    </div>
+    <div class="callout blue">
+      <p class="ttl">② ask sb for sth 还是 ask sb to do sth？</p>
+      <p>“要东西”用 <b>for</b>，“请求做某事”用 <b>to</b>。</p>
+      <p>· She asks the policeman <b>for</b> help.（要的是 help 这个东西）</p>
+      <p>· She asks the policeman <b>to help</b> her.（请求他做 help 这个动作）</p>
+    </div>
+
+    <h3><span class="dot">◆</span>练习 5 题</h3>
+    <ol class="ex">
+      <li>Please look ______ the blackboard, boys and girls.</li>
+      <li>My sister often helps me ______ my English.</li>
+      <li>The boy asked his father ______ a new bike.</li>
+      <li>Look! A dog is running ______ a cat.</li>
+      <li>We often talk ______ our school life ______ our teacher.</li>
+    </ol>
+    <details class="ans">
+      <summary>查看答案与解析</summary>
+      <ol>
+        <li><b>at</b> —— look at 固定搭配，“看……”。</li>
+        <li><b>with</b> —— 后面是 English（名词），用 help sb with sth。</li>
+        <li><b>for</b> —— 要的是 a new bike 这个“东西”，ask sb for sth。</li>
+        <li><b>after</b> —— 狗在“追”猫，run after。</li>
+        <li><b>about / with</b> —— talk about sth（谈论的内容），talk with sb（谈话的对象）。</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ================= 类型二 ================= -->
+<section id="t2">
+  <div class="card type t2">
+    <h2><span class="badge">类型二</span>名词／描述性固定搭配</h2>
+    <p class="meta">对应错题：第 1、2、11、12 题 &nbsp;|&nbsp; 4 题</p>
+
+    <h3><span class="dot">◆</span>精讲</h3>
+    <p>这一类介词常和名词、形容词绑在一起，或者是“介词短语作后置定语”，考试里出现频率极高，基本属于<b>背了就得分</b>：</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>考点</th><th>搭配</th><th>提醒</th></tr></thead>
+        <tbody>
+          <tr><td>价格</td><td>at a good / great price，at low prices</td><td>不能用 for</td></tr>
+          <tr><td>媒介</td><td>on TV / on the radio / on the phone / on the Internet</td><td>不能用 from</td></tr>
+          <tr><td>销售</td><td>on sale（特价出售）／ for sale（待售）</td><td>看语境选</td></tr>
+          <tr><td>穿着</td><td>in + 衣服、颜色：a woman <b>in</b> a yellow dress</td><td>与 with 对比</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="dot">◆</span>重点辨析：in 和 with 表“特征”</h3>
+    <div class="callout">
+      <p>· <b>in</b> 强调“穿、戴在身上的衣物／颜色”：a boy <b>in</b> a blue coat，the woman <b>in</b> red</p>
+      <p>· <b>with</b> 强调“伴随的、长在身上或身上的特征”：a man <b>with</b> glasses，a girl <b>with</b> long hair</p>
+      <p class="ttl">口诀：in 管衣服颜色，with 管长相配饰。</p>
+    </div>
+    <p>另外，第 2 题要特别注意：on TV 是标准的固定搭配；“I know it <b>from</b> TV programs”也能见到，但那偏“信息来源”的说法，考试按 <b>on TV</b> 填。</p>
+
+    <h3><span class="dot">◆</span>练习 5 题</h3>
+    <ol class="ex">
+      <li>These coats are ______ sale. Let's buy one.</li>
+      <li>I bought this book ______ a very good price.</li>
+      <li>We watched the football game ______ TV last night.</li>
+      <li>The woman ______ a white dress is my aunt.</li>
+      <li>Do you know the man ______ glasses over there?</li>
+    </ol>
+    <details class="ans">
+      <summary>查看答案与解析</summary>
+      <ol>
+        <li><b>on</b> —— on sale = 特价出售。</li>
+        <li><b>at</b> —— “以……的价格”用 at，at a very good price。</li>
+        <li><b>on</b> —— on TV 是固定搭配。</li>
+        <li><b>in</b> —— 穿着白裙子，in + 衣服。</li>
+        <li><b>with</b> —— 戴眼镜是“随身特征”，用 with。</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ================= 类型三 ================= -->
+<section id="t3">
+  <div class="card type t3">
+    <h2><span class="badge">类型三</span>地点介词 in / on / at</h2>
+    <p class="meta">对应错题：第 3、7 题 &nbsp;|&nbsp; 2 题</p>
+
+    <h3><span class="dot">◆</span>精讲</h3>
+    <p>三者本质是<b>“范围大小和接触关系”</b>的区别：</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>介词</th><th>核心含义</th><th>典型搭配</th></tr></thead>
+        <tbody>
+          <tr><td><b>at</b></td><td>一个“点”、具体地点</td><td>at home, at school, at the door, at the bus stop, at the gate</td></tr>
+          <tr><td><b>on</b></td><td>在某个“平面／表面”上</td><td>on the playground, on the wall, on the desk, on the floor</td></tr>
+          <tr><td><b>in</b></td><td>在某个“空间／范围”里</td><td>in Beijing, in the classroom, in the box, in the park</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="dot">◆</span>本题相关的两个关键点</h3>
+    <div class="callout">
+      <p><b>① on the playground：</b>操场被看作一块“平面场地”，所以用 on。课本和考试标准答案都是 on the playground。</p>
+      <p><b>② at school / at home：</b>这是固定短语，表示“在学校（上学）”“在家”，不加冠词；而 <b>in the school</b> 是“在学校这栋建筑里面”，是完全不同的一层意思。</p>
+    </div>
+    <p>对比感受一下：</p>
+    <p>· My brother isn't <b>at school</b> today.（我哥哥今天没上学）<br>
+       · There are many trees <b>in the school</b>.（学校里有好多树）</p>
+
+    <h3><span class="dot">◆</span>练习 5 题</h3>
+    <ol class="ex">
+      <li>The children are playing games ______ the playground.</li>
+      <li>My father isn't ______ home. He is ______ work.</li>
+      <li>There is a map of China ______ the wall.</li>
+      <li>We are going to meet ______ the school gate.</li>
+      <li>Lucy lives ______ Shanghai with her parents.</li>
+    </ol>
+    <details class="ans">
+      <summary>查看答案与解析</summary>
+      <ol>
+        <li><b>on</b> —— 操场是平面场地。</li>
+        <li><b>at / at</b> —— at home、at work 都是固定短语。</li>
+        <li><b>on</b> —— 地图贴在墙上，表面的接触用 on。</li>
+        <li><b>at</b> —— 校门口是一个“点”，用 at。</li>
+        <li><b>in</b> —— 城市是大范围地点，用 in。</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ================= 类型四 ================= -->
+<section id="t4">
+  <div class="card type t4">
+    <h2><span class="badge">类型四</span>时间介词 at / on / in</h2>
+    <p class="meta">对应错题：第 10 题 &nbsp;|&nbsp; 1 题</p>
+
+    <h3><span class="dot">◆</span>精讲</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>介词</th><th>用于</th><th>例子</th></tr></thead>
+        <tbody>
+          <tr><td><b>at</b></td><td>钟点、时刻、固定短语</td><td>at 6:00, at noon, at night, at weekends</td></tr>
+          <tr><td><b>on</b></td><td>具体某一天／某天的早中晚</td><td>on Monday, on May 1st, on Sunday morning</td></tr>
+          <tr><td><b>in</b></td><td>月份、季节、年份、泛指的上下午</td><td>in May, in summer, in 2026, in the morning</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="dot">◆</span>三个最容易出错的点</h3>
+    <div class="callout">
+      <p><b>①</b> in the morning / in the afternoon / in the evening 用 in，但一旦前面有“具体哪一天”，就改用 on。</p>
+      <p>&nbsp;&nbsp;&nbsp;I read English <b>in</b> the morning. &nbsp;/&nbsp; I read English <b>on</b> Sunday morning. ✔</p>
+      <p><b>②</b> <b>at</b> weekends / at the weekend（英式）与 <b>on</b> weekends / on the weekend（美式）都可以，本题按英式给出 at。考试时以所用教材为准。</p>
+      <p><b>③</b> at night 用 at，但 in the evening 用 in，这两个不能类推。</p>
+    </div>
+
+    <h3><span class="dot">◆</span>练习 5 题</h3>
+    <ol class="ex">
+      <li>I often get up ______ half past six.</li>
+      <li>We have a music lesson ______ Friday afternoon.</li>
+      <li>It's usually very hot ______ summer in Wuhan.</li>
+      <li>My birthday is ______ May 5th.</li>
+      <li>We always have a big dinner ______ the evening of New Year's Day.</li>
+    </ol>
+    <details class="ans">
+      <summary>查看答案与解析</summary>
+      <ol>
+        <li><b>at</b> —— 钟点前用 at。</li>
+        <li><b>on</b> —— 具体某天的下午用 on，不用 in。</li>
+        <li><b>in</b> —— 季节前用 in。</li>
+        <li><b>on</b> —— 具体某一天（5 月 5 日）用 on。</li>
+        <li><b>on</b> —— 有具体限定（New Year's Day 的晚上）就用 on，不用 in。</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ================= 复习建议 ================= -->
+<section id="tips">
+  <h2 class="sec"><span class="num">03</span>复习建议</h2>
+  <div class="card tips">
+    <div class="tip">
+      <p><strong>改掉“中译英”选介词的习惯。</strong>你的 13 个错误里至少有 8 个是中文直译造成的（比如“帮它”写 to）。遇到介词，先问自己：“这个动词／名词，课本上是怎么固定搭配的？”而不是“中文该翻译成什么”。</p>
+    </div>
+    <div class="tip">
+      <p><strong>按“搭配块”背，不按单词背。</strong>别背 look，要背 look <b>at</b>；别背 help，要背 help sb <b>with</b> sth。把这 13 题整理成卡片：左边写动词或名词，右边连介词一起写，每天读一遍，一周就能形成语感。</p>
+    </div>
+    <div class="tip">
+      <p><strong>重点补两类漏洞。</strong>从错题看，最需要加强的是“动词＋介词搭配”（占了一半错误）和“in / on / at 的辨析”。前者靠记忆，后者靠理解“点、面、范围”这把尺子。</p>
+    </div>
+  </div>
+  <div class="actions">
+    <button type="button" id="toggleAll">展开／收起全部答案</button>
+    <button type="button" onclick="window.print()">打印这一页</button>
+  </div>
+</section>
+
+<p class="footer">七年级英语 · 介词填空错题精讲 &nbsp;|&nbsp; 13 道错题订正 + 4 类精讲 + 20 道配套练习</p>
+
+</div>
+
+<script>
+// “展开／收起全部答案”按钮
+document.getElementById('toggleAll').addEventListener('click', function () {
+  var all = document.querySelectorAll('details.ans');
+  var anyClosed = Array.prototype.some.call(all, function (d) { return !d.open; });
+  Array.prototype.forEach.call(all, function (d) { d.open = anyClosed; });
+});
+
+// 打印时自动展开全部答案，打印完恢复
+window.addEventListener('beforeprint', function () {
+  document.querySelectorAll('details.ans').forEach(function (d) {
+    if (!d.open) { d.dataset.wasClosed = '1'; d.open = true; }
+  });
+});
+window.addEventListener('afterprint', function () {
+  document.querySelectorAll('details.ans[data-was-closed]').forEach(function (d) {
+    d.open = false; delete d.dataset.wasClosed;
+  });
+});
+</script>
+</body>
+</html>
